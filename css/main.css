@@ -111,9 +111,6 @@ body {
     margin: 0 auto;
 }
 
-.icon {
-    color: #fff;
-}
 .mast-header {
     min-height: 100vh;
     background: url(../img/building-background.png);
@@ -130,8 +127,14 @@ body {
 }
 
 .tools {
+    position: relative;
     float: left;
+    color: #868e99;
+}
 
+.tools .icon-search {
+    text-indent: -41px;
+    font-size: 13px;
 }
 .tools input {
     border: none;
@@ -141,7 +144,7 @@ body {
 .search {
     width: 196px;
     height: 37px;
-    margin-right: 8px;
+    margin-right: -10px;
     padding: 0px 0 0 23px;
     font-size: 12px;
     background-color: #343c48;
@@ -164,6 +167,7 @@ body {
 
 .menu {
     font-size: 17px;
+    color: #fff;
     border: none;
     background-color: transparent;
 }
