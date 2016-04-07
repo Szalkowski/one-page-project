@@ -1,6 +1,6 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600&subset=latin,latin-ext);
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -111,6 +111,9 @@ body {
     margin: 0 auto;
 }
 
+.icon {
+    color: #fff;
+}
 .mast-header {
     min-height: 100vh;
     background: url(../img/building-background.png);
@@ -123,20 +126,50 @@ body {
 
 .inputs {
     float: right;
-    padding: 55px 100px 0 0;
+    padding: 50px 50px 0 0;
 }
 
 .tools {
     float: left;
+
+}
+.tools input {
+    border: none;
+    border-radius: 20px;
+}
+
+.search {
+    width: 196px;
+    height: 37px;
+    margin-right: 8px;
+    padding: 0px 0 0 23px;
+    font-size: 12px;
+    background-color: #343c48;
+}
+
+.buy {
+    width: 100px;
+    height: 37px;
+    margin-right: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    background-color: #835fa8;
 }
 
 .hamburger {
+    padding-top: 7px;
     float: left;
 }
 
-
-
-
+.menu {
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+}
+.title {
+    clear :both;
+}
 
 .title h1 {
     margin: 0;
