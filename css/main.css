@@ -114,6 +114,7 @@ h3,
 h4 {
     margin: 0;
     padding: 0;
+    font-weight: 300;
 }
 
 p {
@@ -122,9 +123,12 @@ p {
 }
 .sub-title {
     font-size: 34px;
-    font-weight: 300;
+
 }
 
+.sub-third {
+    font-size: 25px;
+}
 .content-m {
     font-size: 12px;
 }
@@ -165,6 +169,7 @@ p {
 .tools .icon-search {
     text-indent: -41px;
     font-size: 13px;
+    padding-top: 1px;
 }
 .tools input {
     border: none;
@@ -172,18 +177,18 @@ p {
 }
 
 .search {
-    width: 196px;
+    width: 197px;
     height: 37px;
     margin-right: -10px;
-    padding: 0px 0 0 23px;
+    padding: 0px 0 0 24px;
     font-size: 12px;
     background-color: #343c48;
 }
 
 .buy {
-    width: 100px;
+    width: 97px;
     height: 37px;
-    margin-right: 6px;
+    margin-right: 9px;
     font-weight: 600;
     font-size: 13px;
     color: #fff;
@@ -277,7 +282,7 @@ p {
 .bigger-phone {
     display: block;
     position: absolute;
-    height: 104.3%%;
+    height: 104.3%;
     width: 342px;
     background-image: url(../img/bigger-phone.png);
     background-repeat: no-repeat;
@@ -285,6 +290,49 @@ p {
     left: 208px;
 }
 
+/* screen three */
+
+.features {
+    min-height: 513px;
+    width: 1000px;
+    margin: 65px auto 0;
+}
+
+.feature {
+    display: inline-block;
+    width: 328px;
+}
+
+.feature:nth-of-type(3) {
+    margin-left: -4px;
+}
+
+.feature .sub-third {
+    letter-spacing: 0.2px;
+    color: #2b303b;
+}
+
+.feature .sub-fourth {
+    width: 290px;
+    margin-top: 23px;
+    padding-left: 3px;
+    letter-spacing: 0.4px;
+    line-height: 25px;
+    color: #696f7c;
+}
+
+.feature .content-m {
+    width: 296px;
+    margin-top: 25px;
+    padding-left: 2px;
+    letter-spacing: -0.1px;
+    line-height: 24px;
+    color: #44484f;
+}
+
+.feature .see-more {
+    margin-left: 4px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
