@@ -1,5 +1,7 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic&subset=latin,latin-ext);
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -14,6 +16,8 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -95,21 +99,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.wrapper {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.mast-header {
+    min-height: 100vh;
+    background: url(../img/building-background.png);
+}
+
+.logo {
+    float: left;
+    padding: 40px 0 0 72px;
+}
+
+.inputs {
+    float: right;
+    padding: 55px 100px 0 0;
+}
+
+.tools {
+    float: left;
+}
+
+.hamburger {
+    float: left;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+.title h1 {
+    margin: 0;
+}
 
 /* ==========================================================================
    Helper classes
