@@ -226,8 +226,9 @@ p {
 /* second screen */
 
 .hero {
+    position: relative;
     height: 425px;
-    background-color: #835fa8;
+    background: #835fa8;
 }
 .hero-cont {
     padding: 80px 0 0 128px;
@@ -255,6 +256,35 @@ p {
     font-size: 12px;
     color: #fff;
 }
+.phones {
+    height: 494px;
+    width: 560px;
+    position: absolute;
+    top: -69px;
+    left: 43.7%;
+
+}
+.smaller-phone {
+    display: block;
+    position: absolute;
+    height: 227px;
+    width: 228px;
+    background-image: url(../img/smaller-phone.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+}
+
+.bigger-phone {
+    display: block;
+    position: absolute;
+    height: 104.3%%;
+    width: 342px;
+    background-image: url(../img/bigger-phone.png);
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 208px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
