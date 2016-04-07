@@ -99,6 +99,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* typography */
+
 body {
     margin: 0;
     padding: 0;
@@ -107,24 +109,39 @@ body {
     color: #fff;
 }
 
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
 .wrapper {
-    width: 1180px;
+    width: 1250px;
     margin: 0 auto;
 }
+
+/* first screen */
 
 .mast-header {
     min-height: 100vh;
     background: url(../img/building-background.png);
+    background-size: cover;
+    background-position: top left;
 }
 
 .logo {
     float: left;
-    padding: 40px 0 0 72px;
+    padding: 40px 0 0 21px;
 }
 
 .inputs {
     float: right;
-    padding: 50px 50px 0 0;
+    padding: 50px 0 0 0;
 }
 
 .tools {
@@ -172,7 +189,7 @@ body {
     background-color: transparent;
 }
 .title {
-    margin-left: 550px;
+    margin-left: 500px;
     clear :both;
 }
 
@@ -188,12 +205,21 @@ body {
 
 .title p {
     width: 476px;
-    padding-top: 6px;
+    padding: 5px 0 0 3px;
     font-size: 15px;
     letter-spacing: 0.09px;
     line-height: 25px;
 }
 
+/* second screen */
+
+.hero {
+    background-color: #835fa8;
+}
+
+.hero .sub-title {
+    margin-top: 88px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
