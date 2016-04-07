@@ -104,6 +104,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    color: #fff;
 }
 
 .wrapper {
@@ -167,16 +168,30 @@ body {
 
 .menu {
     font-size: 17px;
-    color: #fff;
     border: none;
     background-color: transparent;
 }
 .title {
+    margin-left: 550px;
     clear :both;
 }
 
 .title h1 {
-    margin: 0;
+    width: 533px;
+    padding-top: 199px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -0.4px;
+    line-height: 76px;
+}
+
+.title p {
+    width: 476px;
+    padding-top: 6px;
+    font-size: 15px;
+    letter-spacing: 0.09px;
+    line-height: 25px;
 }
 
 /* ==========================================================================
