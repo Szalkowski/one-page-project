@@ -118,8 +118,20 @@ h4 {
 
 p {
     margin-bottom: 0;
+    font-weight: 400;
+}
+.sub-title {
+    font-size: 34px;
+    font-weight: 300;
 }
 
+.content-m {
+    font-size: 12px;
+}
+
+.content-l {
+    font-size: 14px;
+}
 .wrapper {
     width: 1250px;
     margin: 0 auto;
@@ -128,7 +140,7 @@ p {
 /* first screen */
 
 .mast-header {
-    min-height: 100vh;
+    height: 113.5vh;
     background: url(../img/building-background.png);
     background-size: cover;
     background-position: top left;
@@ -214,11 +226,34 @@ p {
 /* second screen */
 
 .hero {
+    height: 425px;
     background-color: #835fa8;
 }
-
+.hero-cont {
+    padding: 80px 0 0 128px;
+}
 .hero .sub-title {
-    margin-top: 88px;
+    letter-spacing: -0.2px;
+}
+
+.hero .content-l {
+    width: 377px;
+    padding-left: 2px;
+    letter-spacing: -0.24px;
+    line-height: 22px;
+}
+.see-more {
+    display: block;
+    padding: 12px;
+    margin-top: 27px;
+    width: 116px;
+    height: 15px;
+    background-color: #3dd2ae;
+    border-radius: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
 }
 /* ==========================================================================
    Helper classes
