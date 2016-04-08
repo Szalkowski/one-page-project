@@ -167,25 +167,40 @@ p {
 }
 
 .tools .icon-search {
-    text-indent: -41px;
     font-size: 13px;
-    padding-top: 1px;
+    line-height: 37px;
 }
 .tools input {
     border: none;
     border-radius: 20px;
 }
 
+.search-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
 .search {
-    width: 197px;
+    width: 175px;
     height: 37px;
-    margin-right: -10px;
-    padding: 0px 0 0 24px;
+    padding: 0px 20px 0 24px;
     font-size: 12px;
     background-color: #343c48;
 }
 
+.search-btn {
+    position: absolute;
+    padding: 1px 0;
+    right: 12px;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+    border: none;
+}
+
 .buy {
+    display: inline-block;
     width: 97px;
     height: 37px;
     margin-right: 9px;
