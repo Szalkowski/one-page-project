@@ -466,7 +466,7 @@ p {
     float: right;
     display: block;
     height: 100%;
-    width: 690px;
+    width: 53.3vw;
     background: url(../img/conectivity-image.png) 50% 50% no-repeat;
 }
 
@@ -486,12 +486,14 @@ p {
     height: 325px;
 }
 .news-img {
-    display: block;
-    float: left;
-    width: 490px;
     height: 390px;
+    float: left;
     margin-right: 50px;
-    background: url(../img/your-design.png);
+}
+
+.news-img img{
+    height: 100%;
+    width: 45vw;
 }
 .date {
 
@@ -506,7 +508,7 @@ p {
     display: block;
     position: absolute;
     bottom: 0;
-    left: 40%;
+    left: 42.5vw;
     padding: 10px 20px;
     text-decoration: none;
     background: #232323;
