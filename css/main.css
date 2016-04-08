@@ -395,17 +395,50 @@ p {
 /* screen five */
 
 .services {
-    min-height: 400px;
+    min-height: 451px;
     background-color: #2b303b;
 }
 
 .serv-wrap {
-    width: 1000px;
-    padding-top: 50px;
+    width: 1037px;
+    padding-top: 64px;
     margin: 0 auto;
+    list-style-type: none;
+    counter-reset: section;
 }
 
-.
+.service {
+    float: left;
+    width: 232px;
+    margin-left: 15px;
+}
+
+.service:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.service .icon {
+    font-size: 37px;
+    color: #3dd2ae;
+}
+
+.service .sub-fourth {
+    padding-top: 22px;
+
+
+}
+
+.service .sub-fourth:before {
+    counter-increment: section;
+    content:  "0" counters(section, "") " ";
+    color: #3a4d60;
+}
+
+.service .content-m {
+    padding-top: 5px;
+    width: 219px;
+    line-height: 21px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
