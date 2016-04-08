@@ -475,9 +475,11 @@ p {
     line-height: 24px;
 }
 .latest-news {
+    position: relative;
     height: 390px;
 }
 .news {
+
     padding-top: 65px;
     background: #835fa8;
     width: 95.1vw;
@@ -496,13 +498,30 @@ p {
     font-size: 10px;
     font-style: italic;
 }
-.author img{
-    float: left;
-}
+.author{
 
-.news .link{
-    clear: both;
-    margin-top: 100px;
+    display: inline-block;
+}
+.link {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #232323;
+    color: #fff;
+    font-size: 10px;
+}
+.news .content {
+    width: 1009px;
+    font-size: 27px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 37px;
+}
+img.author {
+    margin-right: 10px;
 }
 /* ==========================================================================
    Helper classes
