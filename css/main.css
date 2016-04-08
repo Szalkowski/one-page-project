@@ -107,6 +107,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #fff;
+    background: #f4f8fb;
 }
 
 h2,
@@ -118,7 +119,7 @@ h4 {
 }
 
 p {
-    margin-bottom: 0;
+    margin: 0 0 20px 0;
     font-weight: 400;
 }
 .sub-title {
@@ -438,6 +439,70 @@ p {
     padding-top: 5px;
     width: 219px;
     line-height: 21px;
+}
+
+/* screen six */
+
+.connectivity {
+    height: 476px;
+}
+
+.connect-text i {
+    float: left;
+    font-size: 34px;
+}
+
+.connect-text {
+    width: 515px;
+    padding-top: 85px;
+    color: #2b303b;
+}
+
+.connect-text .sub-third {
+
+    padding-top: 40px;
+}
+.connectivity .image {
+    float: right;
+    display: block;
+    height: 100%;
+    width: 690px;
+    background: url(../img/conectivity-image.png) 50% 50% no-repeat;
+}
+
+.connectivity .content-m {
+    padding-top: 40px;
+    line-height: 24px;
+}
+.latest-news {
+    height: 390px;
+}
+.news {
+    padding-top: 65px;
+    background: #835fa8;
+    width: 95.1vw;
+    height: 325px;
+}
+.news-img {
+    display: block;
+    float: left;
+    width: 490px;
+    height: 390px;
+    margin-right: 50px;
+    background: url(../img/your-design.png);
+}
+.date {
+
+    font-size: 10px;
+    font-style: italic;
+}
+.author img{
+    float: left;
+}
+
+.news .link{
+    clear: both;
+    margin-top: 100px;
 }
 /* ==========================================================================
    Helper classes
