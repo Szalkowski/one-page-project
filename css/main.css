@@ -119,7 +119,7 @@ h4 {
 }
 
 p {
-    margin: 0 0 20px 0;
+    margin: 0;
     font-weight: 400;
 }
 .sub-title {
@@ -246,7 +246,7 @@ p {
 
 .hero {
     position: relative;
-    height: 407px;
+    height: 424px;
     background: #835fa8;
 }
 .hero-cont {
@@ -257,8 +257,9 @@ p {
 }
 
 .hero .content-l {
-    width: 377px;
+    width: 379px;
     padding: 13px 2px 0px;
+    letter-spacing: -0.2px;
     line-height: 22px;
 }
 .see-more {
@@ -456,7 +457,7 @@ p {
 }
 
 .connect-text .sub-title {
-    padding-top: 5px;
+    padding-top: 9px;
     font-size: 34px;
     line-height: 25px;
     color: #696f7c;
@@ -481,7 +482,8 @@ p {
     background-size: 100% 100%;
 }
 .connectivity .content-m {
-    padding-top: 27px;
+    padding-top: 25px;
+    letter-spacing: -0.1px;
     line-height: 24px;
 }
 
@@ -520,14 +522,14 @@ p {
     height: 100%;
 }
 .date {
-    padding-top: 17px;
+    padding-top: 20px;
     margin-bottom: 2px;
     font-size: 10px;
     font-style: italic;
 }
 .author{
     display: inline-block;
-    padding-top: 21px;
+    padding-top: 41px;
     font-size: 13px;
 }
 .link {
@@ -552,7 +554,7 @@ p {
 }
 img.author {
     height: 50px;
-    padding: 0px 0 0 4px;
+    padding: 1px 0 0 4px;
     margin-right: 10px;
 }
 
@@ -561,10 +563,8 @@ img.author {
 
 .comments {
     position: relative;
-    float: left;
-    width: 34vw;
     height: 250px;
-    padding-left: 36px;
+    width: 36vw;
     margin-left: 12vw;
     background: #fff;
     color: #83969f;
@@ -574,6 +574,7 @@ img.author {
     margin: 0;
     width: 379px;
     font-size: 20px;
+    letter-spacing: -0.6px;
     line-height: 24px;
     color: #232323;
 }
@@ -582,6 +583,7 @@ img.author {
     width: 417px;
     padding-top: 11px;
     line-height: 21px;
+    letter-spacing: -0.1px;
     font-size: 12px;
 }
 
@@ -601,19 +603,70 @@ img.author {
     font-size: 10px;
     font-weight: 600;
 }
+
+.comment-text {
+    padding: 3px 0 0 2.6vw
+}
 .comment-img {
-    position: relative;
     display: block;
-    margin: -156px 0 0 34vw;
+    margin: -159px 0 0 36vw;
     float: left;
-    height: 250px;
+    height: 256px;
     width: 500px;
-    background: url(../img/your-design-smaller.png) 50% 50% no-repeat;
+    background-image: url(../img/triangle.png), url(../img/your-design-smaller.png);
+    background-position: -8px 50%, left top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.all-about {
+    clear: both;
+    position: relative;
+    height: 640px;
+    width: 100%;
+    background: url(../img/study.png) 50% 50% no-repeat;
     background-size: cover;
+}
+.about-bg {
+
+    height: 391px;
+    width: 48vw;
+    background: #835fa8;
 }
 
 .about {
-    clear: both;
+    position: absolute;
+    top: 70px;
+    width: 348px;
+}
+
+.about-content {
+
+    font-size: 27px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 37px;
+    margin: 0;
+}
+
+.about-content .content {
+padding-bottom: 19px;
+}
+
+p.author-about {
+    font-size: 13px;
+    font-style: normal;
+}
+.author-about {
+    display: inline-block;
+    font-size: 13px;
+}
+
+img.author-about {
+    height: 50px;
+    padding: 6px 11px 0px 2px;
+}
+footer {
+    background: #1a2124;
 }
 /* ==========================================================================
    Helper classes
