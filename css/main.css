@@ -138,27 +138,26 @@ p {
     font-size: 14px;
 }
 .wrapper {
-    width: 1250px;
+    width: 995px;
     margin: 0 auto;
 }
 
 /* first screen */
 
 .mast-header {
-    height: 107vh;
-    background: url(../img/building-background.png);
+    height: 113.7vh;
+    background: url(../img/building-background.png) 50% 50% no-repeat;
     background-size: cover;
-    background-position: top left;
 }
 
 .logo {
     float: left;
-    padding: 40px 0 0 21px;
+    padding: 41px 0px 0 5.3vw;
 }
 
 .inputs {
     float: right;
-    padding: 50px 0 0 0;
+    padding: 50px 3.6vw 0 0
 }
 
 .tools {
@@ -222,13 +221,12 @@ p {
     background-color: transparent;
 }
 .title {
-    margin-left: 500px;
-    clear :both;
+    padding: 24.5vh 0 0 40.3vw;
+    clear: both;
 }
 
 .title h1 {
     width: 533px;
-    padding-top: 25vh;
     margin-bottom: 0;
     font-size: 60px;
     font-weight: 300;
@@ -238,7 +236,7 @@ p {
 
 .title p {
     width: 476px;
-    padding: 5px 0 0 3px;
+    padding: 20px 0 0 3px;
     font-size: 15px;
     letter-spacing: 0.09px;
     line-height: 25px;
@@ -248,11 +246,11 @@ p {
 
 .hero {
     position: relative;
-    height: 425px;
+    height: 407px;
     background: #835fa8;
 }
 .hero-cont {
-    padding: 80px 0 0 128px;
+    padding: 79px 0 0;
 }
 .hero .sub-title {
     letter-spacing: -0.2px;
@@ -260,8 +258,7 @@ p {
 
 .hero .content-l {
     width: 377px;
-    padding-left: 2px;
-    letter-spacing: -0.24px;
+    padding: 13px 2px 0px;
     line-height: 22px;
 }
 .see-more {
@@ -309,7 +306,7 @@ p {
 /* screen three */
 
 .features {
-    min-height: 494px;
+    min-height: 450px;
     background: #f4f8fb;
 }
 
@@ -378,15 +375,13 @@ p {
 }
 
 .for-humans .content-l {
-    width: 952px;
+    width: 995px;
     padding-top: 23px;
-    margin: 0 auto;
     text-align: center;
     line-height: 25px;
-    letter-spacing: -0.02px;
 }
 .design-btn {
-    width: 1220px;
+    width: 962px;
     padding-top: 75px;
     margin:0 auto;
     background: transparent;
@@ -401,8 +396,8 @@ p {
 }
 
 .serv-wrap {
-    width: 1037px;
-    padding-top: 64px;
+    width: 995px;
+    padding: 64px 0 0 0;
     margin: 0 auto;
     list-style-type: none;
     counter-reset: section;
@@ -436,9 +431,9 @@ p {
 }
 
 .service .content-m {
-    padding-top: 5px;
-    width: 219px;
-    line-height: 21px;
+    padding-top: 16px;
+    width: 220px;
+    line-height: 22px;
 }
 
 /* screen six */
@@ -454,15 +449,23 @@ p {
 }
 
 .connect-text {
-    width: 515px;
-    padding-top: 85px;
+    width: 390px;
+    padding-top: 78px;;
     color: #2b303b;
     float:left;
 }
 
+.connect-text .sub-title {
+    padding-top: 5px;
+    font-size: 34px;
+    line-height: 25px;
+    color: #696f7c;
+}
 .connect-text .sub-third {
-
-    padding-top: 40px;
+    padding-top: 35px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
 }
 
 .connect-img-box {
@@ -478,9 +481,13 @@ p {
     background-size: 100% 100%;
 }
 .connectivity .content-m {
-    padding-top: 40px;
+    padding-top: 27px;
     line-height: 24px;
 }
+
+/* section seven */
+
+
 .latest-news {
     position: relative;
     height: 390px;
@@ -488,15 +495,18 @@ p {
 
 .latest-news .photo-box {
     height: 390px;
-    width: 48vw;
+    width: 36vw;
+    margin-left: 12vw;
     float: left;
 }
 .news {
     min-width: 50.6vw;
-    height: 325px;
-    padding-top: 65px;
+    height: 389px;
     margin-left: 48vw;
     background: #835fa8;
+}
+.news-text {
+    padding: 44px 0 0 48px;
 }
 .news-img {
     height: 100%;
@@ -510,41 +520,100 @@ p {
     height: 100%;
 }
 .date {
-
+    padding-top: 17px;
+    margin-bottom: 2px;
     font-size: 10px;
     font-style: italic;
 }
 .author{
-
     display: inline-block;
+    padding-top: 21px;
+    font-size: 13px;
 }
 .link {
     position: absolute;
     display: block;
     bottom: 0;
-    width: 57px;
-    padding: 10px 20px;
+    height: 25px;
+    width: 86px;
+    line-height: 25px;
+    text-align: center;
     background: #232323;
     font-size: 10px;
     text-decoration: none;
     color: #fff;
 }
 .news .content {
-    width: 526px;
+    width: 422px;
     font-size: 27px;
     font-weight: 300;
     font-style: italic;
     line-height: 37px;
 }
 img.author {
+    height: 50px;
+    padding: 0px 0 0 4px;
     margin-right: 10px;
 }
 
+/* section eight */
+
+
+.comments {
+    position: relative;
+    float: left;
+    width: 34vw;
+    height: 250px;
+    padding-left: 36px;
+    margin-left: 12vw;
+    background: #fff;
+    color: #83969f;
+}
 .comment-title {
+    padding-top: 33px;
+    margin: 0;
+    width: 379px;
     font-size: 20px;
-    font-weight: 300;
     line-height: 24px;
-    color: #232323
+    color: #232323;
+}
+
+.comments .content-m {
+    width: 417px;
+    padding-top: 11px;
+    line-height: 21px;
+    font-size: 12px;
+}
+
+.counter {
+    position: absolute;
+    float: left;
+    bottom: 4px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.comment {
+    position: absolute;
+    top: 10px;
+    left: 55px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.comment-img {
+    position: relative;
+    display: block;
+    margin: -156px 0 0 34vw;
+    float: left;
+    height: 250px;
+    width: 500px;
+    background: url(../img/your-design-smaller.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.about {
+    clear: both;
 }
 /* ==========================================================================
    Helper classes
