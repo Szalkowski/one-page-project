@@ -447,6 +447,7 @@ p {
     height: 476px;
 }
 
+
 .connect-text i {
     float: left;
     font-size: 34px;
@@ -456,20 +457,26 @@ p {
     width: 515px;
     padding-top: 85px;
     color: #2b303b;
+    float:left;
 }
 
 .connect-text .sub-third {
 
     padding-top: 40px;
 }
-.connectivity .image {
-    float: right;
-    display: block;
-    height: 100%;
-    width: 53.3vw;
-    background: url(../img/conectivity-image.png) 50% 50% no-repeat;
-}
 
+.connect-img-box {
+    min-width: 50vw;
+    height: 476px;
+    margin-left: 48vw;
+}
+.connectivity .connect-image {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url(../img/conectivity-image.png) left top no-repeat;
+    background-size: 100% 100%;
+}
 .connectivity .content-m {
     padding-top: 40px;
     line-height: 24px;
@@ -478,22 +485,29 @@ p {
     position: relative;
     height: 390px;
 }
-.news {
 
-    padding-top: 65px;
-    background: #835fa8;
-    width: 95.1vw;
+.latest-news .photo-box {
+    height: 390px;
+    width: 48vw;
+    float: left;
+}
+.news {
+    min-width: 50.6vw;
     height: 325px;
+    padding-top: 65px;
+    margin-left: 48vw;
+    background: #835fa8;
 }
 .news-img {
-    height: 390px;
-    float: left;
-    margin-right: 50px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: url(../img/your-design.png) left top no-repeat;
+    background-size: 100% 100%;
 }
 
 .news-img img{
     height: 100%;
-    width: 45vw;
 }
 .date {
 
@@ -505,18 +519,18 @@ p {
     display: inline-block;
 }
 .link {
-    display: block;
     position: absolute;
+    display: block;
     bottom: 0;
-    left: 42.5vw;
+    width: 57px;
     padding: 10px 20px;
-    text-decoration: none;
     background: #232323;
-    color: #fff;
     font-size: 10px;
+    text-decoration: none;
+    color: #fff;
 }
 .news .content {
-    width: 1009px;
+    width: 526px;
     font-size: 27px;
     font-weight: 300;
     font-style: italic;
@@ -524,6 +538,13 @@ p {
 }
 img.author {
     margin-right: 10px;
+}
+
+.comment-title {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #232323
 }
 /* ==========================================================================
    Helper classes
