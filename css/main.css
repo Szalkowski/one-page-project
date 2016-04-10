@@ -643,18 +643,18 @@ img.author {
 
     font-size: 27px;
     font-weight: 300;
-    font-style: italic;
+
     line-height: 37px;
     margin: 0;
 }
 
 .about-content .content {
 padding-bottom: 19px;
+font-style: italic;
 }
 
 p.author-about {
     font-size: 13px;
-    font-style: normal;
 }
 .author-about {
     display: inline-block;
@@ -666,7 +666,83 @@ img.author-about {
     padding: 6px 11px 0px 2px;
 }
 footer {
+    min-height: 480px;
     background: #1a2124;
+}
+
+.get-in-touch {
+    padding: 82px 0 0;
+    font-size: 11px;
+}
+
+.touch {
+    width: 480px;
+    float: left;
+    }
+
+.touch-title {
+    font-weight: 600;
+}
+
+.touch-content{
+    padding-top: 16px;
+    letter-spacing: -0.03px;
+    line-height: 20px;
+}
+
+.newsletter {
+    float: left;
+    width: 402px;
+    margin-left: 98px;
+}
+
+.newsletter form {
+    padding-top: 21px;
+}
+.newsletter .email {
+    display: block;
+    float: left;
+    height: 44px;
+    width: 334px;
+    margin: 1px 0px 0 0;
+}
+
+.send {
+    height: 50px;
+    width: 59px;
+    margin-top: 1px;
+    font-size: 33px;
+    border: none;
+    background-color: #835fa8;
+}
+
+.newsletter-content {
+    width: 280px;
+    padding: 11px 0 0;
+    font-size: 10px;
+    line-height: 15px;
+}
+.site-map {
+    clear: both;
+    padding-top: 20px;
+}
+.map {
+    display: inline-block;
+    width: 165px;
+}
+.map ul {
+    list-style-type: none;
+    padding: 14px 0;
+    margin: 0;
+}
+
+.map li {
+    font-size: 11px;
+    line-height: 20px;
+}
+.map-title {
+    font-size: 11px;
+    font-weight: 600;
 }
 /* ==========================================================================
    Helper classes
