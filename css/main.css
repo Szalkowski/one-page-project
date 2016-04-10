@@ -617,6 +617,7 @@ img.author {
     background-image: url(../img/triangle.png), url(../img/your-design-smaller.png);
     background-position: -8px 50%, 50% 50%;
     background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
 }
 
 /* about section */
