@@ -152,14 +152,22 @@ p {
 /* first screen */
 
 .mast-header {
+    position: relative;
     height: 113.7vh;
-    background: url(../img/building-background.png) 50% 50% no-repeat;
+    background-image: url(../img/building-background.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-
+.head-cont {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 .logo {
     float: left;
-    padding: 41px 0px 0 5.3vw;
+    padding: 41px 5.3vw 0px;
 }
 
 .inputs {
@@ -262,6 +270,7 @@ p {
 .hero .content-l {
     width: 379px;
     padding: 13px 2px 0px;
+    letter-spacing: -0.2px;
     line-height: 22px;
 }
 

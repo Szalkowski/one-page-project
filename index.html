@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/animate.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -17,31 +18,34 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header class="mast-header">
-            <div class="logo">
-                <img src="img/logo.png" alt="logo" />
-            </div>
-            <div class="inputs">
-                <div class="tools">
-                    <div class="search-wrapper">
-                        <input class="search" type="search" placeholder="Search website" />
-                        <button class="search-btn">
-                            <i class="icon-search"></i>
-                        </button>
-                    </div>
-                    <input class="buy" type="button" value="Buy $21" />
+        <header>
+            <div class="mast-header"></div>
+            <div class="head-cont">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo" />
                 </div>
-                <nav class="hamburger">
-                    <button class="menu">
-                        <i class="icon-menu"></i>
-                    </button>
-                </nav>
-            </div>
+                <div class="inputs">
+                    <div class="tools">
+                        <div class="search-wrapper">
+                            <input class="search" type="search" placeholder="Search website" />
+                            <button class="search-btn">
+                                <i class="icon-search"></i>
+                            </button>
+                        </div>
+                        <input class="buy" type="button" value="Buy $21" />
+                    </div>
+                    <nav class="hamburger">
+                        <button class="menu">
+                            <i class="icon-menu"></i>
+                        </button>
+                    </nav>
+                </div>
             <div class="title">
                 <h1>Building bulletproof fucking apps</h1>
                 <p>
                     Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan
-                </p>
+                    </p>
+                </div>
             </div>
         </header>
         <main>
@@ -253,7 +257,12 @@
             </div>
         </footer>
 
+
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
