@@ -122,6 +122,7 @@ p {
     margin: 0;
     font-weight: 400;
 }
+
 .sub-title {
     font-size: 34px;
 
@@ -130,6 +131,11 @@ p {
 .sub-third {
     font-size: 25px;
 }
+
+.sub-fourth {
+
+}
+
 .content-m {
     font-size: 12px;
 }
@@ -137,6 +143,7 @@ p {
 .content-l {
     font-size: 14px;
 }
+
 .wrapper {
     width: 995px;
     margin: 0 auto;
@@ -161,7 +168,6 @@ p {
 }
 
 .tools {
-    position: relative;
     float: left;
     color: #868e99;
 }
@@ -200,7 +206,6 @@ p {
 }
 
 .buy {
-    display: inline-block;
     width: 97px;
     height: 37px;
     margin-right: 9px;
@@ -242,49 +247,46 @@ p {
     line-height: 25px;
 }
 
-/* second screen */
+/* hero container */
 
 .hero {
     position: relative;
     height: 424px;
     background: #835fa8;
 }
+
 .hero-cont {
     padding: 79px 0 0;
-}
-.hero .sub-title {
-    letter-spacing: -0.2px;
 }
 
 .hero .content-l {
     width: 379px;
     padding: 13px 2px 0px;
-    letter-spacing: -0.2px;
     line-height: 22px;
 }
+
 .see-more {
     display: block;
     padding: 12px;
     margin-top: 27px;
     width: 116px;
     height: 15px;
-    background-color: #3dd2ae;
-    border-radius: 18px;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
     color: #fff;
+    background-color: #3dd2ae;
+    border-radius: 18px;
 }
+
 .phones {
-    height: 494px;
-    width: 560px;
     position: absolute;
     top: -69px;
     left: 43.7%;
-
+    height: 494px;
 }
 .smaller-phone {
-    display: block;
+
     position: absolute;
     height: 227px;
     width: 228px;
@@ -294,17 +296,16 @@ p {
 }
 
 .bigger-phone {
-    display: block;
     position: absolute;
-    height: 104.3%;
-    width: 342px;
-    background-image: url(../img/bigger-phone.png);
-    background-repeat: no-repeat;
     bottom: 0;
     left: 208px;
+    width: 342px;
+    height: 104.3%;
+    background-image: url(../img/bigger-phone.png);
+    background-repeat: no-repeat;
 }
 
-/* screen three */
+/* features container */
 
 .features {
     min-height: 450px;
@@ -312,9 +313,7 @@ p {
 }
 
 .features-wrap {
-    width: 1000px;
     padding-top: 65px;
-    margin: 0 auto;
 }
 
 .feature {
@@ -323,7 +322,7 @@ p {
 }
 
 .feature:nth-of-type(3) {
-    margin-left: -4px;
+    margin-left: -6px;
 }
 
 .feature .sub-third {
@@ -353,10 +352,11 @@ p {
     margin-left: 4px;
 }
 
-/* screen four */
+/* for-humans container */
 
 .for-humans {
     position: relative;
+    min-height: 513px;
     background-color: #232831;
 
 }
@@ -376,7 +376,6 @@ p {
 }
 
 .for-humans .content-l {
-    width: 995px;
     padding-top: 23px;
     text-align: center;
     line-height: 25px;
@@ -384,12 +383,11 @@ p {
 .design-btn {
     width: 962px;
     padding-top: 75px;
-    margin:0 auto;
     background: transparent;
     border: none;
 }
 
-/* screen five */
+/* services container */
 
 .services {
     min-height: 451px;
@@ -397,9 +395,8 @@ p {
 }
 
 .serv-wrap {
-    width: 995px;
     padding: 64px 0 0 0;
-    margin: 0 auto;
+    margin: 0;
     list-style-type: none;
     counter-reset: section;
 }
@@ -421,8 +418,6 @@ p {
 
 .service .sub-fourth {
     padding-top: 22px;
-
-
 }
 
 .service .sub-fourth:before {
@@ -437,10 +432,10 @@ p {
     line-height: 22px;
 }
 
-/* screen six */
+/* connectivity container */
 
 .connectivity {
-    height: 476px;
+    min-height: 476px;
 }
 
 
@@ -458,7 +453,6 @@ p {
 
 .connect-text .sub-title {
     padding-top: 9px;
-    font-size: 34px;
     line-height: 25px;
     color: #696f7c;
 }
@@ -474,12 +468,12 @@ p {
     height: 476px;
     margin-left: 48vw;
 }
-.connectivity .connect-image {
+.connect-image {
     width: 100%;
     height: 100%;
     margin: 0;
-    background: url(../img/conectivity-image.png) left top no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/conectivity-image.png) 50% 50% no-repeat;
+    background-size: cover;
 }
 .connectivity .content-m {
     padding-top: 25px;
@@ -487,7 +481,7 @@ p {
     line-height: 24px;
 }
 
-/* section seven */
+/* news section */
 
 
 .latest-news {
@@ -495,34 +489,36 @@ p {
     height: 390px;
 }
 
-.latest-news .photo-box {
+.photo-box {
     height: 390px;
     width: 36vw;
     margin-left: 12vw;
     float: left;
 }
-.news {
-    min-width: 50.6vw;
-    height: 389px;
-    margin-left: 48vw;
-    background: #835fa8;
-}
-.news-text {
-    padding: 44px 0 0 48px;
-}
+
 .news-img {
     height: 100%;
     width: 100%;
     margin: 0;
-    background: url(../img/your-design.png) left top no-repeat;
-    background-size: 100% 100%;
+    background: url(../img/your-design.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+.news {
+    min-width: 50.6vw;
+    height: 390px;
+    margin-left: 48vw;
+    background: #835fa8;
+}
+
+.news-text {
+    padding: 64px 0 0 48px;
 }
 
 .news-img img{
     height: 100%;
 }
+
 .date {
-    padding-top: 20px;
     margin-bottom: 2px;
     font-size: 10px;
     font-style: italic;
@@ -558,7 +554,7 @@ img.author {
     margin-right: 10px;
 }
 
-/* section eight */
+/* comments container */
 
 
 .comments {
@@ -569,9 +565,12 @@ img.author {
     background: #fff;
     color: #83969f;
 }
+
+.comment-text {
+    padding: 36px 0 0 2.6vw;
+}
+
 .comment-title {
-    padding-top: 33px;
-    margin: 0;
     width: 379px;
     font-size: 20px;
     letter-spacing: -0.6px;
@@ -584,14 +583,12 @@ img.author {
     padding-top: 11px;
     line-height: 21px;
     letter-spacing: -0.1px;
-    font-size: 12px;
 }
 
 .counter {
     position: absolute;
     float: left;
-    bottom: 4px;
-    margin: 0;
+    bottom: 1px;
     font-size: 25px;
     font-weight: 300;
 }
@@ -604,19 +601,17 @@ img.author {
     font-weight: 600;
 }
 
-.comment-text {
-    padding: 3px 0 0 2.6vw
-}
 .comment-img {
-    display: block;
     margin: -159px 0 0 36vw;
     float: left;
     height: 256px;
     width: 500px;
     background-image: url(../img/triangle.png), url(../img/your-design-smaller.png);
-    background-position: -8px 50%, left top;
+    background-position: -8px 50%, 50% 50%;
     background-repeat: no-repeat, no-repeat;
 }
+
+/* about section */
 
 .all-about {
     clear: both;
@@ -627,35 +622,25 @@ img.author {
     background-size: cover;
 }
 .about-bg {
-
     height: 391px;
     width: 48vw;
     background: #835fa8;
 }
 
-.about {
+.about-content {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 37px;
     position: absolute;
     top: 70px;
     width: 348px;
 }
 
-.about-content {
-
-    font-size: 27px;
-    font-weight: 300;
-
-    line-height: 37px;
-    margin: 0;
-}
-
 .about-content .content {
-padding-bottom: 19px;
-font-style: italic;
+    padding-bottom: 19px;
+    font-style: italic;
 }
 
-p.author-about {
-    font-size: 13px;
-}
 .author-about {
     display: inline-block;
     font-size: 13px;
@@ -665,6 +650,9 @@ img.author-about {
     height: 50px;
     padding: 6px 11px 0px 2px;
 }
+
+/* footer */
+
 footer {
     min-height: 480px;
     background: #1a2124;
@@ -693,23 +681,24 @@ footer {
 .newsletter {
     float: left;
     width: 402px;
-    margin-left: 98px;
+    margin-left: 110px;
 }
 
 .newsletter form {
     padding-top: 21px;
 }
-.newsletter .email {
+
+.email {
     display: block;
     float: left;
-    height: 44px;
     width: 334px;
+    height: 44px;
     margin: 1px 0px 0 0;
 }
 
 .send {
-    height: 50px;
     width: 59px;
+    height: 50px;
     margin-top: 1px;
     font-size: 33px;
     border: none;
@@ -722,6 +711,7 @@ footer {
     font-size: 10px;
     line-height: 15px;
 }
+
 .site-map {
     clear: both;
     padding-top: 20px;
@@ -740,6 +730,7 @@ footer {
     font-size: 11px;
     line-height: 20px;
 }
+
 .map-title {
     font-size: 11px;
     font-weight: 600;
