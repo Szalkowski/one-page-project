@@ -153,17 +153,7 @@ p {
 
 .mast-header {
     position: relative;
-    height: 113.7vh;
-    background-image: url(../img/building-background.png);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.header-bg-blur {
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    filter: blur(5px);
+    margin: -86px 0 0 -19px;
 }
 
 .head-cont {
@@ -644,7 +634,7 @@ p {
     float: left;
     height: 256px;
     width: 500px;
-    margin: -159px 0 0 36vw;
+    margin: -152px 0 0 36vw;
     background-image: url(../img/triangle.png), url(../img/your-design-smaller.png);
     background-position: -8px 50%, 50% 50%;
     background-repeat: no-repeat, no-repeat;
@@ -730,10 +720,11 @@ footer {
 .email {
     float: left;
     width: 334px;
-    height: 44px;
+    height: 45px;
     margin: 1px 0px 0 0;
     font-size: 16px;
     color: #000;
+    border: none;
     border-radius: 5px 0 0 5px;
 }
 
@@ -743,7 +734,7 @@ footer {
 
 .send {
     width: 59px;
-    height: 50px;
+    height: 47px;
     margin-top: 1px;
     font-size: 33px;
     border: none;

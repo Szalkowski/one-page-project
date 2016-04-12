@@ -1,10 +1,10 @@
 $(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
-            $('.mast-header').addClass('header-bg-blur');
+            $('.header-img').attr("filter", "url(#blur)");
         }
         else {
-            $('.mast-header').removeClass('header-bg-blur');
+            $('.header-img').removeAttr( "filter" );
         }
     });
 });
