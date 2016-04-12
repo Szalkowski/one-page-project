@@ -159,6 +159,12 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.header-bg-blur {
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(7px);
+    filter: blur(7px);
+}
 .head-cont {
     position: absolute;
     width: 100%;
