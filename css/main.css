@@ -149,7 +149,7 @@ p {
     margin: 0 auto;
 }
 
-/* first screen */
+/* header */
 
 .mast-header {
     position: relative;
@@ -167,9 +167,9 @@ p {
 }
 .head-cont {
     position: absolute;
-    width: 100%;
     top: 0;
     left: 0;
+    width: 100%;
 }
 .logo {
     float: left;
@@ -190,6 +190,7 @@ p {
     font-size: 13px;
     line-height: 37px;
 }
+
 .tools input {
     border: none;
     border-radius: 20px;
@@ -211,12 +212,12 @@ p {
 
 .search-btn {
     position: absolute;
-    padding: 1px 0;
     right: 12px;
     top: 0;
     bottom: 0;
-    background: transparent;
+    padding: 1px 0;
     border: none;
+    background: transparent;
 }
 
 .buy {
@@ -230,8 +231,8 @@ p {
 }
 
 .hamburger {
-    padding-top: 7px;
     float: left;
+    padding-top: 7px;
 }
 
 .menu {
@@ -240,8 +241,8 @@ p {
     background-color: transparent;
 }
 .title {
-    padding: 24.5vh 0 0 40.3vw;
     clear: both;
+    padding: 24.5vh 0 0 40.3vw;
 }
 
 .title h1 {
@@ -282,16 +283,16 @@ p {
 
 .see-more {
     display: block;
-    padding: 12px;
-    margin-top: 27px;
     width: 116px;
     height: 15px;
+    padding: 12px;
+    margin-top: 27px;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
     color: #fff;
-    background-color: #3dd2ae;
     border-radius: 18px;
+    background-color: #3dd2ae;
 }
 
 .phones {
@@ -300,14 +301,15 @@ p {
     left: 43.7%;
     height: 494px;
 }
+
 .smaller-phone {
 
     position: absolute;
-    height: 227px;
+    bottom: 0;
     width: 228px;
+    height: 227px;
     background-image: url(../img/smaller-phone.png);
     background-repeat: no-repeat;
-    bottom: 0;
 }
 
 .bigger-phone {
@@ -356,8 +358,8 @@ p {
 
 .feature .content-m {
     width: 296px;
-    margin-top: 25px;
     padding-left: 2px;
+    margin-top: 25px;
     letter-spacing: -0.1px;
     line-height: 24px;
     color: #44484f;
@@ -375,12 +377,13 @@ p {
     background-color: #232831;
 
 }
+
 .for-humans .shape {
     position: absolute;
     top: -27px;
     left: 45%;
-    height: 53px;
     width: 101px;
+    height: 53px;
     background-image: url(../img/screen2-shape.png);
 }
 
@@ -395,11 +398,12 @@ p {
     text-align: center;
     line-height: 25px;
 }
+
 .design-btn {
     width: 962px;
     padding-top: 75px;
-    background: transparent;
     border: none;
+    background: transparent;
 }
 
 /* services container */
@@ -426,6 +430,7 @@ p {
     font-size: 37px;
     color: #3dd2ae;
 }
+
 .service:nth-of-type(1) {
     margin-left: 0;
 }
@@ -441,8 +446,8 @@ p {
 }
 
 .service .content-m {
-    padding-top: 16px;
     width: 220px;
+    padding-top: 16px;
     line-height: 22px;
 }
 
@@ -452,17 +457,16 @@ p {
     min-height: 476px;
 }
 
-
 .connect-text i {
     float: left;
     font-size: 34px;
 }
 
 .connect-text {
+    float:left;
     width: 390px;
     padding-top: 78px;;
     color: #2b303b;
-    float:left;
 }
 
 .connect-text .sub-title {
@@ -470,6 +474,7 @@ p {
     line-height: 25px;
     color: #696f7c;
 }
+
 .connect-text .sub-third {
     padding-top: 35px;
     font-size: 17px;
@@ -484,6 +489,7 @@ p {
     background: url(../img/conectivity-image.png) 50% 50% no-repeat;
     background-size: cover;
 }
+
 .connectivity .content-m {
     padding-top: 25px;
     letter-spacing: -0.1px;
@@ -499,19 +505,20 @@ p {
 }
 
 .photo-box {
-    height: 390px;
-    width: 36vw;
-    margin-left: 12vw;
     float: left;
+    width: 36vw;
+    height: 390px;
+    margin-left: 12vw;
 }
 
 .news-img {
-    height: 100%;
     width: 100%;
+    height: 100%;
     margin: 0;
     background: url(../img/your-design.png) 50% 50% no-repeat;
     background-size: cover;
 }
+
 .news {
     min-width: 50.6vw;
     height: 390px;
@@ -532,24 +539,27 @@ p {
     font-size: 10px;
     font-style: italic;
 }
+
 .author{
     display: inline-block;
     padding-top: 41px;
     font-size: 13px;
 }
+
 .link {
     position: absolute;
     display: block;
+    width: 86px;
     bottom: 0;
     height: 25px;
-    width: 86px;
-    line-height: 25px;
     text-align: center;
-    background: #232323;
     font-size: 10px;
+    line-height: 25px;
     text-decoration: none;
     color: #fff;
+    background: #232323;
 }
+
 .news .content {
     width: 422px;
     font-size: 27px;
@@ -557,6 +567,7 @@ p {
     font-style: italic;
     line-height: 37px;
 }
+
 img.author {
     height: 50px;
     padding: 1px 0 0 4px;
@@ -568,8 +579,8 @@ img.author {
 
 .comments {
     position: relative;
-    height: 250px;
     width: 36vw;
+    height: 250px;
     margin-left: 12vw;
     background: #fff;
     color: #83969f;
@@ -582,8 +593,8 @@ img.author {
 .comment-title {
     width: 379px;
     font-size: 20px;
-    letter-spacing: -0.6px;
     line-height: 24px;
+    letter-spacing: -0.6px;
     color: #232323;
 }
 
@@ -611,10 +622,10 @@ img.author {
 }
 
 .comment-img {
-    margin: -159px 0 0 36vw;
     float: left;
     height: 256px;
     width: 500px;
+    margin: -159px 0 0 36vw;
     background-image: url(../img/triangle.png), url(../img/your-design-smaller.png);
     background-position: -8px 50%, 50% 50%;
     background-repeat: no-repeat, no-repeat;
@@ -624,26 +635,27 @@ img.author {
 /* about section */
 
 .all-about {
-    clear: both;
     position: relative;
+    clear: both;
     height: 640px;
     width: 100%;
     background: url(../img/study.png) 50% 50% no-repeat;
     background-size: cover;
 }
+
 .about-bg {
-    height: 391px;
     width: 48vw;
+    height: 391px;
     background: #835fa8;
 }
 
 .about-content {
-    font-size: 27px;
-    font-weight: 300;
-    line-height: 37px;
     position: absolute;
     top: 70px;
     width: 348px;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 37px;
 }
 
 .about-content .content {
@@ -674,8 +686,8 @@ footer {
 }
 
 .touch {
-    width: 480px;
     float: left;
+    width: 480px;
     }
 
 .touch-title {
