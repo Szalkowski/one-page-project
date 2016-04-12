@@ -132,10 +132,6 @@ p {
     font-size: 25px;
 }
 
-.sub-fourth {
-
-}
-
 .content-m {
     font-size: 12px;
 }
@@ -153,7 +149,7 @@ p {
 
 .mast-header {
     position: relative;
-    margin: -86px 0 0 -19px;
+    margin-left: -55px;
 }
 
 .head-cont {
