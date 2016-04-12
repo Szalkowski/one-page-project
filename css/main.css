@@ -161,15 +161,15 @@ p {
 }
 
 .header-bg-blur {
-    -webkit-filter: blur(7px);
-    -moz-filter: blur(7px);
-    filter: blur(7px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(1px);
+    filter: blur(1px);
 }
 .head-cont {
     position: absolute;
+    width: 100%;
     top: 0;
     left: 0;
-    width: 100%;
 }
 .logo {
     float: left;
@@ -178,12 +178,19 @@ p {
 
 .inputs {
     float: right;
-    padding: 50px 3.6vw 0 0
+
 }
 
 .tools {
-    float: left;
+    float: right;
+    padding: 50px 3.6vw 0 0;
     color: #868e99;
+}
+
+.search:focus,
+.search-btn,
+.menu {
+    outline: none;
 }
 
 .tools .icon-search {
@@ -191,22 +198,21 @@ p {
     line-height: 37px;
 }
 
-.tools input {
-    border: none;
-    border-radius: 20px;
-}
-
 .search-wrapper {
     position: relative;
+    float: left;
     display: inline-block;
     margin-right: 10px;
 }
 
 .search {
+
     width: 175px;
     height: 37px;
     padding: 0px 20px 0 24px;
     font-size: 12px;
+    border: none;
+    border-radius: 20px;
     background-color: #343c48;
 }
 
@@ -216,27 +222,39 @@ p {
     top: 0;
     bottom: 0;
     padding: 1px 0;
-    border: none;
     background: transparent;
+    border: none;
 }
 
 .buy {
+    display: block;
+    float: left;
     width: 97px;
     height: 37px;
     margin-right: 9px;
+    text-align: center;
+    text-decoration: none;
     font-weight: 600;
     font-size: 13px;
+    line-height: 37px;
     color: #fff;
+    border-radius: 20px;
     background-color: #835fa8;
 }
 
+.buy:hover {
+    background: #000;
+    transition: all 200ms;
+}
+
 .hamburger {
-    float: left;
+    float: right;
     padding-top: 7px;
 }
 
 .menu {
     font-size: 17px;
+    color: #fff;
     border: none;
     background-color: transparent;
 }
@@ -295,6 +313,10 @@ p {
     background-color: #3dd2ae;
 }
 
+.see-more:hover {
+    background: #000;
+    transition: all 200ms;
+}
 .phones {
     position: absolute;
     top: -69px;
@@ -325,7 +347,7 @@ p {
 /* features container */
 
 .features {
-    min-height: 450px;
+    min-height: 455px;
     background: #f4f8fb;
 }
 
@@ -335,7 +357,8 @@ p {
 
 .feature {
     display: inline-block;
-    width: 328px;
+    width: 316px;
+    padding: 0 11px 0 3px;
 }
 
 .feature:nth-of-type(3) {
@@ -350,7 +373,6 @@ p {
 .feature .sub-fourth {
     width: 290px;
     margin-top: 23px;
-    padding-left: 3px;
     letter-spacing: 0.4px;
     line-height: 25px;
     color: #696f7c;
