@@ -357,8 +357,8 @@ p {
 
 .feature {
     display: inline-block;
-    width: 316px;
-    padding: 0 11px 0 3px;
+    width: 320px;
+    padding: 0 3px 0 4px;
 }
 
 .feature:nth-of-type(3) {
@@ -397,16 +397,13 @@ p {
     position: relative;
     min-height: 513px;
     background-color: #232831;
-
 }
 
-.for-humans .shape {
+.for-humans:before {
+    content: url(../img/screen2-shape.png);
     position: absolute;
-    top: -27px;
     left: 45%;
-    width: 101px;
-    height: 53px;
-    background-image: url(../img/screen2-shape.png);
+    top: -27px
 }
 
 .for-humans .sub-title {
@@ -422,8 +419,9 @@ p {
 }
 
 .design-btn {
-    width: 962px;
-    padding-top: 75px;
+    position: absolute;
+    left: 27%;
+    bottom: 0;
     border: none;
     background: transparent;
 }
@@ -436,7 +434,7 @@ p {
 }
 
 .serv-wrap {
-    padding: 67px 0 0 0;
+    padding: 61px 0 0 0;
     margin: 0;
     list-style-type: none;
     counter-reset: section;
@@ -444,8 +442,8 @@ p {
 
 .service {
     float: left;
-    width: 232px;
-    margin-left: 15px;
+    width: 220px;
+    padding-left: 28px;
 }
 
 .service i {
@@ -454,7 +452,7 @@ p {
 }
 
 .service:nth-of-type(1) {
-    margin-left: 0;
+    padding-left: 0;
 }
 
 .service .sub-fourth {
@@ -468,7 +466,6 @@ p {
 }
 
 .service .content-m {
-    width: 220px;
     padding-top: 16px;
     line-height: 22px;
 }
@@ -479,16 +476,15 @@ p {
     min-height: 476px;
 }
 
-.connect-text i {
-    float: left;
-    font-size: 34px;
-}
-
 .connect-text {
     float:left;
     width: 390px;
-    padding-top: 78px;;
+    padding-top: 70px;;
     color: #2b303b;
+}
+
+.connect-text i {
+    padding-right: 5px;
 }
 
 .connect-text .sub-title {
@@ -498,7 +494,7 @@ p {
 }
 
 .connect-text .sub-third {
-    padding-top: 35px;
+    padding-top: 28px;
     font-size: 17px;
     font-weight: 300;
     line-height: 25px;
@@ -549,11 +545,7 @@ p {
 }
 
 .news-text {
-    padding: 64px 0 0 48px;
-}
-
-.news-img img{
-    height: 100%;
+    padding: 60px 0 0 48px;
 }
 
 .date {
@@ -563,9 +555,20 @@ p {
 }
 
 .author{
-    display: inline-block;
-    padding-top: 41px;
+    padding-top: 24px;
     font-size: 13px;
+}
+
+.author-avatar {
+    float: left;
+    height: 50px;
+    padding: 1px 0 0 4px;
+    margin-right: 16px;
+}
+
+.author-name {
+    float: left;
+    line-height: 50px;
 }
 
 .link {
@@ -590,12 +593,6 @@ p {
     line-height: 37px;
 }
 
-img.author {
-    height: 50px;
-    padding: 1px 0 0 4px;
-    margin-right: 10px;
-}
-
 /* comments container */
 
 
@@ -609,7 +606,7 @@ img.author {
 }
 
 .comment-text {
-    padding: 36px 0 0 2.6vw;
+    padding: 30px 0 0 2.6vw;
 }
 
 .comment-title {
@@ -665,6 +662,9 @@ img.author {
     background-size: cover;
 }
 
+.all-about .author{
+    padding-top: 5px;
+}
 .about-bg {
     width: 48vw;
     height: 391px;
@@ -688,11 +688,6 @@ img.author {
 .author-about {
     display: inline-block;
     font-size: 13px;
-}
-
-img.author-about {
-    height: 50px;
-    padding: 6px 11px 0px 2px;
 }
 
 /* footer */
@@ -728,23 +723,22 @@ footer {
     margin-left: 110px;
 }
 
-.newsletter form {
+.newsletter-form {
     padding-top: 21px;
 }
 
 .email {
-    display: block;
     float: left;
     width: 334px;
     height: 44px;
     margin: 1px 0px 0 0;
     font-size: 16px;
     color: #000;
+    border-radius: 5px 0 0 5px;
 }
 
-.email:active {
-
-    border: none;
+.email:focus {
+    outline: none;
 }
 
 .send {
@@ -754,8 +748,12 @@ footer {
     font-size: 33px;
     border: none;
     background-color: #835fa8;
+    border-radius: 0 5px 5px 0;
 }
 
+.send:focus {
+    outline: none;
+}
 .newsletter-content {
     width: 280px;
     padding: 11px 0 0;
