@@ -358,8 +358,8 @@ p {
 
 .feature {
     display: inline-block;
-    width: 320px;
-    padding: 0 3px 0 4px;
+    width: 316px;
+    padding: 0 3px 0 11px;
 }
 
 .feature:nth-of-type(3) {
@@ -372,7 +372,6 @@ p {
 }
 
 .feature .sub-fourth {
-    width: 290px;
     margin-top: 23px;
     letter-spacing: 0.4px;
     line-height: 25px;
@@ -408,9 +407,8 @@ p {
 }
 
 .for-humans .sub-title {
-    width: 360px;
     padding-top: 78px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .for-humans .content-l {
@@ -422,7 +420,8 @@ p {
 .design-btn {
     position: absolute;
     bottom: 0;
-    margin: 0 6vw;
+    width: 797px;
+    margin: 0px 84px;
     border: none;
     background: transparent;
 }
@@ -444,7 +443,7 @@ p {
 .service {
     float: left;
     width: 220px;
-    padding-left: 28px;
+    padding-left: 38px;
 }
 
 .service i {
