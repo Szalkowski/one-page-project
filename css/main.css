@@ -152,6 +152,10 @@ p {
     margin-left: -55px;
 }
 
+.header-img {
+    width: 110%;
+    height: 110%
+}
 .head-cont {
     position: absolute;
     width: 100%;
@@ -276,11 +280,11 @@ p {
 }
 
 .hero-cont {
+    width: 381px;
     padding: 79px 0 0;
 }
 
 .hero .content-l {
-    width: 379px;
     padding: 13px 2px 0px;
     letter-spacing: -0.2px;
     line-height: 22px;
@@ -344,8 +348,8 @@ p {
 
 .feature {
     display: inline-block;
-    width: 316px;
-    padding: 0 3px 0 11px;
+    width: 314px;
+    padding-right: 13px;
 }
 
 .feature:nth-of-type(3) {
@@ -365,7 +369,6 @@ p {
 }
 
 .feature .content-m {
-    width: 296px;
     padding-left: 2px;
     margin-top: 25px;
     letter-spacing: -0.1px;
@@ -593,10 +596,10 @@ p {
 
 .comment-text {
     padding: 30px 0 0 2.6vw;
+    width: 398px;
 }
 
 .comment-title {
-    width: 379px;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: -0.6px;
@@ -604,7 +607,6 @@ p {
 }
 
 .comments .content-m {
-    width: 417px;
     padding-top: 11px;
     line-height: 21px;
     letter-spacing: -0.1px;
@@ -678,13 +680,13 @@ p {
 
 /* footer */
 
-footer {
+.footer {
     min-height: 480px;
     background: #1a2124;
 }
 
 .get-in-touch {
-    padding: 82px 0 0;
+    padding: 77px 0 0;
     font-size: 11px;
 }
 
@@ -710,12 +712,13 @@ footer {
 }
 
 .newsletter-form {
-    padding-top: 21px;
+    padding-top: 22px;
 }
 
 .email {
     float: left;
-    width: 334px;
+    padding-left: 20px;
+    width: 318px;
     height: 45px;
     margin: 1px 0px 0 0;
     font-size: 16px;
@@ -750,7 +753,7 @@ footer {
 
 .site-map {
     clear: both;
-    padding-top: 20px;
+    padding-top: 26px;
 }
 .map {
     display: inline-block;
@@ -765,6 +768,15 @@ footer {
 .map li {
     font-size: 11px;
     line-height: 20px;
+}
+
+.map li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.map li a:hover {
+    text-decoration: underline;
 }
 
 .map-title {
