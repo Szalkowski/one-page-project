@@ -724,6 +724,7 @@
 }
 
 .bounceIn {
+    animation-delay: 500ms;
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
 }
@@ -1238,6 +1239,7 @@
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+  animation-delay: 1000ms;
 }
 
 @-webkit-keyframes fadeInDown {
@@ -1913,6 +1915,7 @@
   backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
   animation-name: flipInX;
+  animation-delay: 1500ms;
 }
 
 @-webkit-keyframes flipInY {
@@ -2207,6 +2210,7 @@
 .rotateIn {
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
+  animation-delay: 2000ms;
 }
 
 @-webkit-keyframes rotateInDownLeft {
